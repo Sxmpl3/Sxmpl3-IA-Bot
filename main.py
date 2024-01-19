@@ -24,7 +24,7 @@ bot = commands.Bot(command_prefix="$", intents=intents)
 async def on_ready():
     await bot.wait_until_ready()
 
-    channel_id = 1197840689434722344
+    channel_id = id del canal de discord donde se van a enviar los mensajes
     channel = bot.get_channel(channel_id)
 
     print(f"{Fore.RED}[+]{Fore.RESET} Sxmpl3 IA bot")
@@ -41,7 +41,7 @@ async def on_ready():
 
 @bot.command()
 async def ayuda(ctx):
-    channel_id = 1197840689434722344
+    channel_id = id del canal de discord donde se van a enviar los mensajes
     channel = bot.get_channel(channel_id)
 
     author = ctx.author.mention
@@ -52,7 +52,7 @@ async def ayuda(ctx):
 
 @bot.command()
 async def q(ctx, *args):
-    channel_id = 1197840689434722344
+    channel_id = id del canal de discord donde se van a enviar los mensajes
     channel = bot.get_channel(channel_id)
 
     pregunta = ' '.join(args)
