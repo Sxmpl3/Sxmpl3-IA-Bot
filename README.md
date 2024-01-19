@@ -24,8 +24,8 @@ This project is a Discord bot leveraging the OpenAI API to provide intelligent a
 
 # Acknowledgments:
 
-- This bot was created by Sxmpl3 and is built upon the work and technology provided by OpenAI. We appreciate the developer community and OpenAI for making this project possible.
+- This bot was created by Sxmpl3[https://github.com/Sxmpl3] and is built upon the work and technology provided by OpenAI. We appreciate the developer community and OpenAI for making this project possible.
 
 # Useful Links:
 
-- GitHub Repository: (https://github.com/Sxmpl3/Sxmpl3-IA-Bot/)https://github.com/Sxmpl3/Sxmpl3-IA-Bot/)
+- GitHub Repository: https://github.com/Sxmpl3/Sxmpl3-IA-Bot/)https://github.com/Sxmpl3/Sxmpl3-IA-Bot/
