@@ -64,7 +64,7 @@ async def q(ctx, *args):
     ]
 
     respuesta = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4-1106-preview",
         messages=messages
     )
 
