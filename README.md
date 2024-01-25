@@ -15,8 +15,6 @@ This project is a Discord bot leveraging the OpenAI API to provide intelligent a
 # Requirements:
 
 - Python
-- Libraries like discord.py and openai (installable via pip).
-
   
 # Contributions:
 
