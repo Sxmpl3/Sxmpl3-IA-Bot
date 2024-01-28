@@ -18,7 +18,7 @@ except ModuleNotFoundError:
 openai.api_key = 'api key'
 
 intents = discord.Intents().all()
-bot = commands.Bot(command_prefix="$", intents=intents)
+bot = commands.Bot(command_prefix="/", intents=intents)
 
 @bot.event
 async def on_ready():
@@ -33,7 +33,7 @@ async def on_ready():
     if channel:
         embed = Embed(title="Sxmpl3`s IA Bot | Created by Sxmpl3", color=0x00ff00)
         embed.add_field(name="Online", value="Bot Online", inline=False)
-        embed.add_field(name="Comandos", value="- $ayuda\n- $q <pregunta>", inline=False)
+        embed.add_field(name="Comandos", value="- /ayuda\n- /q <pregunta>", inline=False)
 
         await channel.send(embed=embed)
     else:
@@ -46,7 +46,7 @@ async def ayuda(ctx):
 
     author = ctx.author.mention
     embed = Embed(title="Sxmpl3`s IA Bot | Created by Sxmpl3", color=0x00ff00)
-    embed.add_field(name="\u200B", value=f"- ¡Hola {author}!\n- Utilice el comando $q <pregunta> para obtener respuestas.", inline=False)
+    embed.add_field(name="\u200B", value=f"- ¡Hola {author}!\n- Utilice el comando /q <pregunta> para obtener respuestas.", inline=False)
 
     await channel.send(embed=embed)
 
